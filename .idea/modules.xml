@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AndroidAndH5Demo.iml" filepath="$PROJECT_DIR$/AndroidAndH5Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AndroidH5Demo.iml" filepath="$PROJECT_DIR$/AndroidH5Demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
