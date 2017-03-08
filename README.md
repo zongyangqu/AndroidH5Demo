@@ -39,14 +39,16 @@
 
 **3.WebView添加互调JS支持的接口（重点）**
 
-webView.addJavascriptInterface(new JSInterface(),"Android");
-private class JSInterface {
+    webView.addJavascriptInterface(new JSInterface(),"Android");
+
+	private class JSInterface {
         //JS需要调用的方法
         @JavascriptInterface
         public void showToast(String arg){
             Toast.makeText(NativeH5Activity.this,arg,Toast.LENGTH_SHORT).show();
         }
     }
+
 这里有两点需要注意
 （1）. Android是可以随意命名的，但是必须和H5中JS的调用名保持一致（对应第二条中的Android）。
  
