@@ -21,5 +21,11 @@
         android:id="@+id/btn_native"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="本地H5调用"/>
+        android:text="本地H5调用简单实现"/>
+
+    <Button
+        android:id="@+id/btnAssemble"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="本地H5调用封装实现"/>
 </LinearLayout>
